@@ -34,7 +34,7 @@ def clean_text(text):
 st.title("Mood Detection App 🎭")
 st.image('https://t4.ftcdn.net/jpg/03/08/12/65/360_F_308126573_fDAWMDCQVNzBsnXgqr2ldt8MrJBIun3P.jpg',width=450)
 st.write("Please enter the text you received, and the model will predict the emotion behind it.")
-st.write('*Please enter long sentences so that model could predict correctly.*')
+st.write('*Please enter longer sentences to help the model make a more accurate prediction*')
 
 user_input=st.text_input("Type your message here: ","")
 
